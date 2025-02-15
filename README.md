@@ -36,7 +36,7 @@ All he wants is a simple data visualization tool which he can access on daily ba
    transactions.order_date=date.date where date.year=2020 and transactions.currency="INR\r" or 
    transactions.currency="USD\r";`
 
-8. Show total revenue in year 2020, Janua0ry Month,
+8. Show total revenue in year 2020, January Month,
 
    `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON   
    transactions.order_date=date.date where date.year=2020 and and date.month_name="January" and 
